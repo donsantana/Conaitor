@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="Solicitud" representedClassName=".Solicitud" syncable="YES">
+        <attribute name="costo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distancia" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="fechaHora" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idSolicitud" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latDestino" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latOrigen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longDestino" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longOrigen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tarifa" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="tiempo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Solicitud" positionX="-63" positionY="-18" width="128" height="195"/>
+    </elements>
+</model>

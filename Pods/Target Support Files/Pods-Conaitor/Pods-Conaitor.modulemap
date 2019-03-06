@@ -1,0 +1,6 @@
+framework module Pods_Conaitor {
+  umbrella header "Pods-Conaitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

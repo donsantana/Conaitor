@@ -1,0 +1,977 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845AADE11C543B8700D4FFA4 /* CTaxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AADE01C543B8500D4FFA4 /* CTaxi.swift */; };
+		845AADE31C543CC400D4FFA4 /* CConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AADE21C543CC400D4FFA4 /* CConductor.swift */; };
+		845C0F521C7633EF0050F852 /* chofer.png in Resources */ = {isa = PBXBuildFile; fileRef = 845C0F511C7633EF0050F852 /* chofer.png */; };
+		84609F301C758E6F0056A282 /* dbutoff3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609EEB1C758E6F0056A282 /* dbutoff3.png */; };
+		84609F311C758E6F0056A282 /* dbuton3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609EEC1C758E6F0056A282 /* dbuton3.png */; };
+		84609F321C758E6F0056A282 /* dclock.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609EED1C758E6F0056A282 /* dclock.png */; };
+		84609F331C758E6F0056A282 /* ddistancia.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609EEE1C758E6F0056A282 /* ddistancia.png */; };
+		84609F341C758E6F0056A282 /* destino.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609EEF1C758E6F0056A282 /* destino.png */; };
+		84609F351C758E6F0056A282 /* destino2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609EF01C758E6F0056A282 /* destino2.png */; };
+		84609F361C758E6F0056A282 /* dmony.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609EF11C758E6F0056A282 /* dmony.png */; };
+		84609F4A1C758E6F0056A282 /* logpassfondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609F051C758E6F0056A282 /* logpassfondo.png */; };
+		84609F4F1C758E6F0056A282 /* origen.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609F0A1C758E6F0056A282 /* origen.png */; };
+		84609F501C758E6F0056A282 /* origen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609F0B1C758E6F0056A282 /* origen2.png */; };
+		84609F531C758E6F0056A282 /* pulsa.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609F0E1C758E6F0056A282 /* pulsa.png */; };
+		84609F5E1C758E6F0056A282 /* separador.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609F191C758E6F0056A282 /* separador.png */; };
+		84609F5F1C758E6F0056A282 /* sinconexion.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609F1A1C758E6F0056A282 /* sinconexion.png */; };
+		84609F601C758E6F0056A282 /* taxi_libre.png in Resources */ = {isa = PBXBuildFile; fileRef = 84609F1B1C758E6F0056A282 /* taxi_libre.png */; };
+		8461A43A1C98743D00A8CFD0 /* CRuta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461A4391C98743D00A8CFD0 /* CRuta.swift */; };
+		8462408F1BEABBB800F272D5 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8462408E1BEABBB800F272D5 /* Entitlements.plist */; };
+		84794F9E1CCA7DCC00C4DD33 /* encabezadosIOS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84794F9C1CCA7DCC00C4DD33 /* encabezadosIOS@2x.png */; };
+		84794F9F1CCA7DCC00C4DD33 /* encabezadosIOS@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84794F9D1CCA7DCC00C4DD33 /* encabezadosIOS@3x.png */; };
+		84C8E9261C82566C00F21E0B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8E9251C82566C00F21E0B /* LocationManager.swift */; };
+		84CD97801C87C36E00E658C0 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 84CD977F1C87C36E00E658C0 /* Contents.json */; };
+		84EF6E701CB4245F00BC8A04 /* starimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EF6E6F1CB4245F00BC8A04 /* starimage.png */; };
+		84F019411CD183BE002D1BDE /* sos.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F019401CD183BE002D1BDE /* sos.png */; };
+		84F019451CD18E56002D1BDE /* Mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F019441CD18E56002D1BDE /* Mapa.png */; };
+		84F019471CD1AA6A002D1BDE /* Taximetro.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F019461CD1AA6A002D1BDE /* Taximetro.png */; };
+		84F019491CD1B780002D1BDE /* Tarifario.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F019481CD1B780002D1BDE /* Tarifario.png */; };
+		84F0D9FD1C5BB52C00C7E962 /* CSolicitud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0D9FC1C5BB52C00C7E962 /* CSolicitud.swift */; };
+		84F0EEC91CA5D102007E969F /* ExplicacionIma.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F0EEC81CA5D102007E969F /* ExplicacionIma.png */; };
+		84F22CA81CDC117300CDC432 /* CSMSVoz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F22CA71CDC117300CDC432 /* CSMSVoz.swift */; };
+		84F2840B1CD697430074E07A /* solicitudesp.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F2840A1CD697430074E07A /* solicitudesp.png */; };
+		84F28A281CC13CC400529F53 /* Images-5.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F28A271CC13CC400529F53 /* Images-5.xcassets */; };
+		84F28A321CC14F1700529F53 /* logpassfondo@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F28A311CC14F1700529F53 /* logpassfondo@2X.png */; };
+		84F28A381CC1672100529F53 /* destino2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F28A371CC1672100529F53 /* destino2@2x.png */; };
+		84F304241CC7F875009EAEF8 /* logpassfondo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F304231CC7F875009EAEF8 /* logpassfondo@3x.png */; };
+		84F493D31CA11C8800A54C36 /* encabezadosIOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F493D21CA11C8800A54C36 /* encabezadosIOS.png */; };
+		84F493D71CA137AD00A54C36 /* solpendientes.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F493D61CA137AD00A54C36 /* solpendientes.png */; };
+		84F571471BCE958200FC18D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F571461BCE958200FC18D5 /* AppDelegate.swift */; };
+		84F571491BCE958200FC18D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F571481BCE958200FC18D5 /* ViewController.swift */; };
+		84F571751BCE964100FC18D5 /* CCliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F571741BCE964100FC18D5 /* CCliente.swift */; };
+		84F7E37F1CB38159008D4713 /* CEvaluacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7E37E1CB38159008D4713 /* CEvaluacion.swift */; };
+		84FEE8921CC403630095C322 /* CTarifa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEE8911CC403630095C322 /* CTarifa.swift */; };
+		93EED4EB500882E63183E147 /* Pods_Conaitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2565B84F17546B1986F8E5CE /* Pods_Conaitor.framework */; };
+		AFDB851920D1FE0E00481CFA /* CompletadaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDB851820D1FE0E00481CFA /* CompletadaController.swift */; };
+		B50482A11E6883B100D5236C /* InicioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50482A01E6883B100D5236C /* InicioController.swift */; };
+		B5054D771E66051500FEEDE4 /* SolPendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5054D761E66051500FEEDE4 /* SolPendController.swift */; };
+		B511EEAC1D76C0D5000E8E4F /* selectmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = B511EEAB1D76C0D5000E8E4F /* selectmenu.png */; };
+		B528CE0D1E85E3E10045A8DA /* SolViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B528CE0B1E85E3E10045A8DA /* SolViewCell.swift */; };
+		B528CE0E1E85E3E10045A8DA /* SolViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B528CE0C1E85E3E10045A8DA /* SolViewCell.xib */; };
+		B585BCC01E6B0F6D0012038C /* CallCenterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585BCBE1E6B0F6D0012038C /* CallCenterViewCell.swift */; };
+		B585BCC11E6B0F6D0012038C /* CallCenterViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B585BCBF1E6B0F6D0012038C /* CallCenterViewCell.xib */; };
+		B585BCC31E6B31D20012038C /* CallCenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585BCC21E6B31D20012038C /* CallCenterController.swift */; };
+		B585BCC61E6B3AC10012038C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B585BCC41E6B3AC10012038C /* Main.storyboard */; };
+		B585BCC91E6B49C60012038C /* SolicitudesTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585BCC71E6B49C60012038C /* SolicitudesTableController.swift */; };
+		B58C6C341D5D15FA0034277C /* mensajesnew.png in Resources */ = {isa = PBXBuildFile; fileRef = B58C6C331D5D15FA0034277C /* mensajesnew.png */; };
+		B58CEB521E71BBD600CFBC0F /* PerfilViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58CEB501E71BBD600CFBC0F /* PerfilViewCell.swift */; };
+		B58CEB531E71BBD600CFBC0F /* PerfilViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58CEB511E71BBD600CFBC0F /* PerfilViewCell.xib */; };
+		B58CEB551E71BEAC00CFBC0F /* PerfilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58CEB541E71BEAC00CFBC0F /* PerfilController.swift */; };
+		B58CEB581E71D54D00CFBC0F /* Perfil2ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58CEB561E71D54D00CFBC0F /* Perfil2ViewCell.swift */; };
+		B58CEB591E71D54D00CFBC0F /* Perfil2ViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58CEB571E71D54D00CFBC0F /* Perfil2ViewCell.xib */; };
+		B58CEB5C1E71D62100CFBC0F /* Perfil3ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58CEB5A1E71D62100CFBC0F /* Perfil3ViewCell.swift */; };
+		B58CEB5D1E71D62100CFBC0F /* Perfil3ViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58CEB5B1E71D62100CFBC0F /* Perfil3ViewCell.xib */; };
+		B58F1E5E1E635D2B008F07AC /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F1E5D1E635D2B008F07AC /* LoginController.swift */; };
+		B5B2ACAA1D5D0BF700361D73 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B2ACA91D5D0BF700361D73 /* Launch Screen.storyboard */; };
+		B5D7FA7C1E84244D00333B59 /* detallesT@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D7FA7B1E84244D00333B59 /* detallesT@3x.png */; };
+		B5E5BD8F1E95684F0093409F /* CBackSMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E5BD8E1E95684F0093409F /* CBackSMS.swift */; };
+		B5EABB641D2C7BA300693DE6 /* salir2.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EABB631D2C7BA300693DE6 /* salir2.png */; };
+		B5EDE1341D6517B20014130F /* CConexionInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EDE1331D6517B20014130F /* CConexionInternet.swift */; };
+		B5EE14BC1D527A7C0050ADAD /* origen2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EE14BB1D527A7C0050ADAD /* origen2@2x.png */; };
+		B5EE14C01D527B040050ADAD /* destino@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EE14BF1D527B040050ADAD /* destino@2x.png */; };
+		B5EE14C41D5282520050ADAD /* destino@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EE14C31D5282520050ADAD /* destino@3x.png */; };
+		B5EE14C81D5286010050ADAD /* origen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EE14C71D5286010050ADAD /* origen@3x.png */; };
+		B5EE74F61D5D5F0500DC8D77 /* CLARO.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EE74F31D5D5F0500DC8D77 /* CLARO.png */; };
+		B5EE74F71D5D5F0500DC8D77 /* CNT.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EE74F41D5D5F0500DC8D77 /* CNT.png */; };
+		B5EE74F81D5D5F0500DC8D77 /* MOVISTAR.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EE74F51D5D5F0500DC8D77 /* MOVISTAR.png */; };
+		B5EE74FA1D5D649300DC8D77 /* CTelefono.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE74F91D5D649300DC8D77 /* CTelefono.swift */; };
+		B5EE74FC1D5D976F00DC8D77 /* callcenter.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EE74FB1D5D976F00DC8D77 /* callcenter.png */; };
+		B5EFF1B51D5C46D8007C4C30 /* uctglogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF1B41D5C46D8007C4C30 /* uctglogo.png */; };
+		B5F0FEB21DD6767200500197 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F0FEAF1DD6767200500197 /* stop.png */; };
+		B5F0FEB41DD6767200500197 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F0FEB11DD6767200500197 /* play.png */; };
+		B5F1D4AC1DA4B5C0006BF1AE /* compartir.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F1D4AB1DA4B5C0006BF1AE /* compartir.png */; };
+		B5F2A86F1D73EB030050F564 /* xoalogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F2A86E1D73EB030050F564 /* xoalogo.png */; };
+		B5F584921DCF99D5002CA7B5 /* DIGITAL.TXT in Resources */ = {isa = PBXBuildFile; fileRef = B5F5848F1DCF99D5002CA7B5 /* DIGITAL.TXT */; };
+		B5F584931DCF99D5002CA7B5 /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B5F584901DCF99D5002CA7B5 /* DS-DIGIB.TTF */; };
+		B5F584941DCF99D5002CA7B5 /* DS-DIGIT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B5F584911DCF99D5002CA7B5 /* DS-DIGIT.TTF */; };
+		B5F753D61D5CCB3700FFDFD0 /* evaluar.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F753D51D5CCB3700FFDFD0 /* evaluar.png */; };
+		B5F753D81D5CDD8300FFDFD0 /* mensajes.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F753D71D5CDD8300FFDFD0 /* mensajes.png */; };
+		B5F753DA1D5CDED200FFDFD0 /* llamar.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F753D91D5CDED200FFDFD0 /* llamar.png */; };
+		B5F753DC1D5CE6ED00FFDFD0 /* smsvoz.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F753DB1D5CE6ED00FFDFD0 /* smsvoz.png */; };
+		B5F753DF1D5CF60500FFDFD0 /* smsvoz2.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F753DD1D5CF60500FFDFD0 /* smsvoz2.png */; };
+		B5F753E01D5CF60500FFDFD0 /* smsvoz3.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F753DE1D5CF60500FFDFD0 /* smsvoz3.png */; };
+		B5F9A19F1D51273E00716E3D /* myCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A19D1D51273E00716E3D /* myCoreDataModel.xcdatamodeld */; };
+		B5F9A1A21D5128AD00716E3D /* Telefonos+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A1A01D5128AD00716E3D /* Telefonos+CoreDataProperties.swift */; };
+		B5F9A1A31D5128AD00716E3D /* Telefonos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A1A11D5128AD00716E3D /* Telefonos.swift */; };
+		B5F9A1A51D5128DC00716E3D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A1A41D5128DC00716E3D /* DataController.swift */; };
+		B5FB09C21D3EC6D10030E34A /* claxon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5FB09C01D3EC6D10030E34A /* claxon.mp3 */; };
+		B5FB09C31D3EC6D10030E34A /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = B5FB09C11D3EC6D10030E34A /* beep.wav */; };
+		B5FB646C1D1C60C3006A2C70 /* Mapacopia.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FB64671D1C60C3006A2C70 /* Mapacopia.png */; };
+		B5FB646E1D1C60C3006A2C70 /* solicitudespcopia.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FB64691D1C60C3006A2C70 /* solicitudespcopia.png */; };
+		B5FB646F1D1C60C3006A2C70 /* Tarifariocopia.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FB646A1D1C60C3006A2C70 /* Tarifariocopia.png */; };
+		B5FB64701D1C60C3006A2C70 /* Taximetrocopia.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FB646B1D1C60C3006A2C70 /* Taximetrocopia.png */; };
+		C60385852213C7F400130EB9 /* InicioControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60385842213C7F400130EB9 /* InicioControllerExtension.swift */; };
+		C6B4AA68222F7E0F0098D10D /* CTN.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B4AA67222F7E0E0098D10D /* CTN.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01D2CA549B1912DBC2A9BA06 /* Pods-Conaitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Conaitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Conaitor/Pods-Conaitor.release.xcconfig"; sourceTree = "<group>"; };
+		07250EAECBF2EEDC976A21B4 /* Pods-Paraiso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paraiso.release.xcconfig"; path = "Pods/Target Support Files/Pods-Paraiso/Pods-Paraiso.release.xcconfig"; sourceTree = "<group>"; };
+		0D64836F0EF542D8628280AB /* Pods-AndyTaxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndyTaxi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AndyTaxi/Pods-AndyTaxi.debug.xcconfig"; sourceTree = "<group>"; };
+		0F3601B85A9F13F4AB6A779B /* Pods_MovilClub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovilClub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2565B84F17546B1986F8E5CE /* Pods_Conaitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Conaitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF0C2426F6DCCE3CFCBBE81 /* Pods_Taxi_Paraiso.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taxi_Paraiso.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5580EDF6C10C26213C4B612A /* Pods_Rocostcar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rocostcar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		614803C5DB936BE9A78397E5 /* Pods_UnTaxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnTaxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D121C69EB07C2D8C56F961 /* Pods_RuedaCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuedaCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		699FC2C938E0DE17EFC8E538 /* Pods-Conaitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Conaitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Conaitor/Pods-Conaitor.debug.xcconfig"; sourceTree = "<group>"; };
+		6C87638E7B9131C6B47A561E /* Pods-RuedaCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuedaCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuedaCar/Pods-RuedaCar.debug.xcconfig"; sourceTree = "<group>"; };
+		75A2852E9633500EBACC1899 /* Pods-RuedaCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuedaCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuedaCar/Pods-RuedaCar.release.xcconfig"; sourceTree = "<group>"; };
+		7F4FC0ED4A7EE7FF32B0786B /* Pods-AndyTaxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndyTaxi.release.xcconfig"; path = "Pods/Target Support Files/Pods-AndyTaxi/Pods-AndyTaxi.release.xcconfig"; sourceTree = "<group>"; };
+		845AADE01C543B8500D4FFA4 /* CTaxi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTaxi.swift; sourceTree = "<group>"; };
+		845AADE21C543CC400D4FFA4 /* CConductor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CConductor.swift; sourceTree = "<group>"; };
+		845C0F511C7633EF0050F852 /* chofer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chofer.png; sourceTree = "<group>"; };
+		845CE2ED1BE9E93F005C641B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		84609EEB1C758E6F0056A282 /* dbutoff3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dbutoff3.png; sourceTree = "<group>"; };
+		84609EEC1C758E6F0056A282 /* dbuton3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dbuton3.png; sourceTree = "<group>"; };
+		84609EED1C758E6F0056A282 /* dclock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dclock.png; sourceTree = "<group>"; };
+		84609EEE1C758E6F0056A282 /* ddistancia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ddistancia.png; sourceTree = "<group>"; };
+		84609EEF1C758E6F0056A282 /* destino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destino.png; sourceTree = "<group>"; };
+		84609EF01C758E6F0056A282 /* destino2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destino2.png; sourceTree = "<group>"; };
+		84609EF11C758E6F0056A282 /* dmony.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dmony.png; sourceTree = "<group>"; };
+		84609F051C758E6F0056A282 /* logpassfondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logpassfondo.png; sourceTree = "<group>"; };
+		84609F0A1C758E6F0056A282 /* origen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = origen.png; sourceTree = "<group>"; };
+		84609F0B1C758E6F0056A282 /* origen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = origen2.png; sourceTree = "<group>"; };
+		84609F0E1C758E6F0056A282 /* pulsa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pulsa.png; sourceTree = "<group>"; };
+		84609F191C758E6F0056A282 /* separador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = separador.png; sourceTree = "<group>"; };
+		84609F1A1C758E6F0056A282 /* sinconexion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sinconexion.png; sourceTree = "<group>"; };
+		84609F1B1C758E6F0056A282 /* taxi_libre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taxi_libre.png; sourceTree = "<group>"; };
+		8461A4391C98743D00A8CFD0 /* CRuta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRuta.swift; sourceTree = "<group>"; };
+		8462408E1BEABBB800F272D5 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		84794F9C1CCA7DCC00C4DD33 /* encabezadosIOS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "encabezadosIOS@2x.png"; sourceTree = "<group>"; };
+		84794F9D1CCA7DCC00C4DD33 /* encabezadosIOS@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "encabezadosIOS@3x.png"; sourceTree = "<group>"; };
+		84C8E9251C82566C00F21E0B /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		84CD977F1C87C36E00E658C0 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents.json; path = "Images-5.xcassets/Contents.json"; sourceTree = "<group>"; };
+		84EF6E6F1CB4245F00BC8A04 /* starimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starimage.png; sourceTree = "<group>"; };
+		84F019401CD183BE002D1BDE /* sos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sos.png; sourceTree = "<group>"; };
+		84F019441CD18E56002D1BDE /* Mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mapa.png; sourceTree = "<group>"; };
+		84F019461CD1AA6A002D1BDE /* Taximetro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Taximetro.png; sourceTree = "<group>"; };
+		84F019481CD1B780002D1BDE /* Tarifario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tarifario.png; sourceTree = "<group>"; };
+		84F0D9FC1C5BB52C00C7E962 /* CSolicitud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSolicitud.swift; sourceTree = "<group>"; };
+		84F0EEC81CA5D102007E969F /* ExplicacionIma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExplicacionIma.png; sourceTree = "<group>"; };
+		84F22CA71CDC117300CDC432 /* CSMSVoz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMSVoz.swift; sourceTree = "<group>"; };
+		84F2840A1CD697430074E07A /* solicitudesp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = solicitudesp.png; sourceTree = "<group>"; };
+		84F28A271CC13CC400529F53 /* Images-5.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-5.xcassets"; sourceTree = "<group>"; };
+		84F28A311CC14F1700529F53 /* logpassfondo@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logpassfondo@2X.png"; sourceTree = "<group>"; };
+		84F28A371CC1672100529F53 /* destino2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "destino2@2x.png"; sourceTree = "<group>"; };
+		84F304231CC7F875009EAEF8 /* logpassfondo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logpassfondo@3x.png"; sourceTree = "<group>"; };
+		84F493D21CA11C8800A54C36 /* encabezadosIOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = encabezadosIOS.png; sourceTree = "<group>"; };
+		84F493D61CA137AD00A54C36 /* solpendientes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = solpendientes.png; sourceTree = "<group>"; };
+		84F571431BCE958200FC18D5 /* Conaitor.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conaitor.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F571461BCE958200FC18D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84F571481BCE958200FC18D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84F571521BCE958200FC18D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F5715B1BCE958200FC18D5 /* XtaxiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XtaxiTests.swift; sourceTree = "<group>"; };
+		84F5715D1BCE958200FC18D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F571661BCE958200FC18D5 /* XtaxiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XtaxiUITests.swift; sourceTree = "<group>"; };
+		84F571681BCE958200FC18D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F571741BCE964100FC18D5 /* CCliente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCliente.swift; sourceTree = "<group>"; };
+		84F7E37E1CB38159008D4713 /* CEvaluacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEvaluacion.swift; sourceTree = "<group>"; };
+		84FC7EDF1BEA6DE50068007B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Pods/GoogleMaps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		84FEE8911CC403630095C322 /* CTarifa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTarifa.swift; sourceTree = "<group>"; };
+		AF07D6831FE4B8C000220E64 /* Pods_Rocostcar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Rocostcar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDB851820D1FE0E00481CFA /* CompletadaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletadaController.swift; sourceTree = "<group>"; };
+		B50482A01E6883B100D5236C /* InicioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InicioController.swift; path = Controllers/InicioController.swift; sourceTree = "<group>"; };
+		B5054D761E66051500FEEDE4 /* SolPendController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolPendController.swift; path = Controllers/SolPendController.swift; sourceTree = "<group>"; };
+		B511EEAB1D76C0D5000E8E4F /* selectmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectmenu.png; sourceTree = "<group>"; };
+		B528CE0B1E85E3E10045A8DA /* SolViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolViewCell.swift; path = Views/SolViewCell.swift; sourceTree = "<group>"; };
+		B528CE0C1E85E3E10045A8DA /* SolViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SolViewCell.xib; path = Views/SolViewCell.xib; sourceTree = "<group>"; };
+		B52CA4991DE0B69300E9782C /* Canvas.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Canvas.framework; path = "Pods/../build/Release-iphoneos/Canvas/Canvas.framework"; sourceTree = "<group>"; };
+		B549BFCF1E8181AD008E2693 /* UnTaxi.temp_caseinsensitive_rename.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnTaxi.temp_caseinsensitive_rename.entitlements; sourceTree = "<group>"; };
+		B585BCBE1E6B0F6D0012038C /* CallCenterViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallCenterViewCell.swift; path = Views/CallCenterViewCell.swift; sourceTree = "<group>"; };
+		B585BCBF1E6B0F6D0012038C /* CallCenterViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CallCenterViewCell.xib; path = Views/CallCenterViewCell.xib; sourceTree = "<group>"; };
+		B585BCC21E6B31D20012038C /* CallCenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallCenterController.swift; path = Controllers/CallCenterController.swift; sourceTree = "<group>"; };
+		B585BCC51E6B3AC10012038C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B585BCC71E6B49C60012038C /* SolicitudesTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolicitudesTableController.swift; path = Controllers/SolicitudesTableController.swift; sourceTree = "<group>"; };
+		B58C6C331D5D15FA0034277C /* mensajesnew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mensajesnew.png; sourceTree = "<group>"; };
+		B58CEB501E71BBD600CFBC0F /* PerfilViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PerfilViewCell.swift; path = Views/PerfilViewCell.swift; sourceTree = "<group>"; };
+		B58CEB511E71BBD600CFBC0F /* PerfilViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PerfilViewCell.xib; path = Views/PerfilViewCell.xib; sourceTree = "<group>"; };
+		B58CEB541E71BEAC00CFBC0F /* PerfilController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PerfilController.swift; path = Controllers/PerfilController.swift; sourceTree = "<group>"; };
+		B58CEB561E71D54D00CFBC0F /* Perfil2ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Perfil2ViewCell.swift; path = Views/Perfil2ViewCell.swift; sourceTree = "<group>"; };
+		B58CEB571E71D54D00CFBC0F /* Perfil2ViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Perfil2ViewCell.xib; path = Views/Perfil2ViewCell.xib; sourceTree = "<group>"; };
+		B58CEB5A1E71D62100CFBC0F /* Perfil3ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Perfil3ViewCell.swift; path = Views/Perfil3ViewCell.swift; sourceTree = "<group>"; };
+		B58CEB5B1E71D62100CFBC0F /* Perfil3ViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Perfil3ViewCell.xib; path = Views/Perfil3ViewCell.xib; sourceTree = "<group>"; };
+		B58F1E5D1E635D2B008F07AC /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = Controllers/LoginController.swift; sourceTree = "<group>"; };
+		B5B2ACA91D5D0BF700361D73 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B5BF37841DDCB48400301DA4 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = "../../../../../Users/dsantana/Library/Developer/Xcode/DerivedData/UnTaxi-bhdseouykvmypecitlgrgswqblii/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework"; sourceTree = "<group>"; };
+		B5D7FA7B1E84244D00333B59 /* detallesT@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detallesT@3x.png"; sourceTree = "<group>"; };
+		B5E5BD8E1E95684F0093409F /* CBackSMS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBackSMS.swift; sourceTree = "<group>"; };
+		B5EABB631D2C7BA300693DE6 /* salir2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salir2.png; sourceTree = "<group>"; };
+		B5EDE1331D6517B20014130F /* CConexionInternet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CConexionInternet.swift; sourceTree = "<group>"; };
+		B5EE14BB1D527A7C0050ADAD /* origen2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "origen2@2x.png"; sourceTree = "<group>"; };
+		B5EE14BF1D527B040050ADAD /* destino@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "destino@2x.png"; sourceTree = "<group>"; };
+		B5EE14C31D5282520050ADAD /* destino@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "destino@3x.png"; sourceTree = "<group>"; };
+		B5EE14C71D5286010050ADAD /* origen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "origen@3x.png"; sourceTree = "<group>"; };
+		B5EE74F31D5D5F0500DC8D77 /* CLARO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CLARO.png; sourceTree = "<group>"; };
+		B5EE74F41D5D5F0500DC8D77 /* CNT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CNT.png; sourceTree = "<group>"; };
+		B5EE74F51D5D5F0500DC8D77 /* MOVISTAR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MOVISTAR.png; sourceTree = "<group>"; };
+		B5EE74F91D5D649300DC8D77 /* CTelefono.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTelefono.swift; sourceTree = "<group>"; };
+		B5EE74FB1D5D976F00DC8D77 /* callcenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callcenter.png; sourceTree = "<group>"; };
+		B5EFF1B41D5C46D8007C4C30 /* uctglogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uctglogo.png; sourceTree = "<group>"; };
+		B5F0FEAF1DD6767200500197 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		B5F0FEB11DD6767200500197 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		B5F1D4AB1DA4B5C0006BF1AE /* compartir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compartir.png; sourceTree = "<group>"; };
+		B5F2A86E1D73EB030050F564 /* xoalogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xoalogo.png; sourceTree = "<group>"; };
+		B5F584881DCF907B002CA7B5 /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DS-DIGI.TTF"; path = "UnTaxi/ds_digital/DS-DIGI.TTF"; sourceTree = "<group>"; };
+		B5F5848A1DCF90F3002CA7B5 /* DS-DIGII.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DS-DIGII.TTF"; path = "UnTaxi/ds_digital/DS-DIGII.TTF"; sourceTree = "<group>"; };
+		B5F5848F1DCF99D5002CA7B5 /* DIGITAL.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DIGITAL.TXT; path = ds_digital/DIGITAL.TXT; sourceTree = "<group>"; };
+		B5F584901DCF99D5002CA7B5 /* DS-DIGIB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DS-DIGIB.TTF"; path = "ds_digital/DS-DIGIB.TTF"; sourceTree = "<group>"; };
+		B5F584911DCF99D5002CA7B5 /* DS-DIGIT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DS-DIGIT.TTF"; path = "ds_digital/DS-DIGIT.TTF"; sourceTree = "<group>"; };
+		B5F753D51D5CCB3700FFDFD0 /* evaluar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evaluar.png; sourceTree = "<group>"; };
+		B5F753D71D5CDD8300FFDFD0 /* mensajes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mensajes.png; sourceTree = "<group>"; };
+		B5F753D91D5CDED200FFDFD0 /* llamar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = llamar.png; sourceTree = "<group>"; };
+		B5F753DB1D5CE6ED00FFDFD0 /* smsvoz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smsvoz.png; sourceTree = "<group>"; };
+		B5F753DD1D5CF60500FFDFD0 /* smsvoz2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smsvoz2.png; sourceTree = "<group>"; };
+		B5F753DE1D5CF60500FFDFD0 /* smsvoz3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smsvoz3.png; sourceTree = "<group>"; };
+		B5F9A19E1D51273E00716E3D /* myCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		B5F9A1A01D5128AD00716E3D /* Telefonos+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Telefonos+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B5F9A1A11D5128AD00716E3D /* Telefonos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Telefonos.swift; sourceTree = "<group>"; };
+		B5F9A1A41D5128DC00716E3D /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		B5FB09C01D3EC6D10030E34A /* claxon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = claxon.mp3; sourceTree = "<group>"; };
+		B5FB09C11D3EC6D10030E34A /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		B5FB64671D1C60C3006A2C70 /* Mapacopia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mapacopia.png; sourceTree = "<group>"; };
+		B5FB64691D1C60C3006A2C70 /* solicitudespcopia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = solicitudespcopia.png; sourceTree = "<group>"; };
+		B5FB646A1D1C60C3006A2C70 /* Tarifariocopia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tarifariocopia.png; sourceTree = "<group>"; };
+		B5FB646B1D1C60C3006A2C70 /* Taximetrocopia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Taximetrocopia.png; sourceTree = "<group>"; };
+		C60385842213C7F400130EB9 /* InicioControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioControllerExtension.swift; sourceTree = "<group>"; };
+		C632686122191A8B000EB255 /* Pods_AndyTaxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_AndyTaxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B4AA67222F7E0E0098D10D /* CTN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CTN.png; sourceTree = "<group>"; };
+		CF81F28FEC8ECA26A8107E52 /* Pods_Paraiso.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paraiso.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D7F641E08EB11EB08A3277 /* Pods_AndyTaxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AndyTaxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DA71888DFD806A6A374B81 /* Pods-Paraiso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paraiso.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paraiso/Pods-Paraiso.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F571401BCE958200FC18D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93EED4EB500882E63183E147 /* Pods_Conaitor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		806E675426FD1B3FEF7755DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C632686122191A8B000EB255 /* Pods_AndyTaxi.framework */,
+				AF07D6831FE4B8C000220E64 /* Pods_Rocostcar.framework */,
+				B52CA4991DE0B69300E9782C /* Canvas.framework */,
+				B5BF37841DDCB48400301DA4 /* SocketIO.framework */,
+				B5F5848A1DCF90F3002CA7B5 /* DS-DIGII.TTF */,
+				B5F584881DCF907B002CA7B5 /* DS-DIGI.TTF */,
+				84FC7EDF1BEA6DE50068007B /* GoogleMaps.framework */,
+				845CE2ED1BE9E93F005C641B /* CoreLocation.framework */,
+				614803C5DB936BE9A78397E5 /* Pods_UnTaxi.framework */,
+				5580EDF6C10C26213C4B612A /* Pods_Rocostcar.framework */,
+				2DF0C2426F6DCCE3CFCBBE81 /* Pods_Taxi_Paraiso.framework */,
+				2565B84F17546B1986F8E5CE /* Pods_Conaitor.framework */,
+				0F3601B85A9F13F4AB6A779B /* Pods_MovilClub.framework */,
+				CF81F28FEC8ECA26A8107E52 /* Pods_Paraiso.framework */,
+				E1D7F641E08EB11EB08A3277 /* Pods_AndyTaxi.framework */,
+				64D121C69EB07C2D8C56F961 /* Pods_RuedaCar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84609EE21C758E6F0056A282 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				C6B4AA67222F7E0E0098D10D /* CTN.png */,
+				B5D7FA7B1E84244D00333B59 /* detallesT@3x.png */,
+				B5F0FEAF1DD6767200500197 /* stop.png */,
+				B5F0FEB11DD6767200500197 /* play.png */,
+				B5F1D4AB1DA4B5C0006BF1AE /* compartir.png */,
+				B511EEAB1D76C0D5000E8E4F /* selectmenu.png */,
+				B5F2A86E1D73EB030050F564 /* xoalogo.png */,
+				B5EE74FB1D5D976F00DC8D77 /* callcenter.png */,
+				B5EE74F31D5D5F0500DC8D77 /* CLARO.png */,
+				B5EE74F41D5D5F0500DC8D77 /* CNT.png */,
+				B5EE74F51D5D5F0500DC8D77 /* MOVISTAR.png */,
+				B58C6C331D5D15FA0034277C /* mensajesnew.png */,
+				B5F753DD1D5CF60500FFDFD0 /* smsvoz2.png */,
+				B5F753DE1D5CF60500FFDFD0 /* smsvoz3.png */,
+				B5F753DB1D5CE6ED00FFDFD0 /* smsvoz.png */,
+				B5F753D91D5CDED200FFDFD0 /* llamar.png */,
+				B5F753D71D5CDD8300FFDFD0 /* mensajes.png */,
+				B5F753D51D5CCB3700FFDFD0 /* evaluar.png */,
+				B5EFF1B41D5C46D8007C4C30 /* uctglogo.png */,
+				B5EE14C71D5286010050ADAD /* origen@3x.png */,
+				B5EE14C31D5282520050ADAD /* destino@3x.png */,
+				B5EE14BF1D527B040050ADAD /* destino@2x.png */,
+				B5EE14BB1D527A7C0050ADAD /* origen2@2x.png */,
+				B5EABB631D2C7BA300693DE6 /* salir2.png */,
+				B5FB64671D1C60C3006A2C70 /* Mapacopia.png */,
+				B5FB64691D1C60C3006A2C70 /* solicitudespcopia.png */,
+				B5FB646A1D1C60C3006A2C70 /* Tarifariocopia.png */,
+				B5FB646B1D1C60C3006A2C70 /* Taximetrocopia.png */,
+				84F2840A1CD697430074E07A /* solicitudesp.png */,
+				84F019481CD1B780002D1BDE /* Tarifario.png */,
+				84F019461CD1AA6A002D1BDE /* Taximetro.png */,
+				84F019441CD18E56002D1BDE /* Mapa.png */,
+				84F019401CD183BE002D1BDE /* sos.png */,
+				84794F9C1CCA7DCC00C4DD33 /* encabezadosIOS@2x.png */,
+				84794F9D1CCA7DCC00C4DD33 /* encabezadosIOS@3x.png */,
+				84F304231CC7F875009EAEF8 /* logpassfondo@3x.png */,
+				84F28A371CC1672100529F53 /* destino2@2x.png */,
+				84F28A311CC14F1700529F53 /* logpassfondo@2X.png */,
+				84EF6E6F1CB4245F00BC8A04 /* starimage.png */,
+				84F0EEC81CA5D102007E969F /* ExplicacionIma.png */,
+				84F493D61CA137AD00A54C36 /* solpendientes.png */,
+				84F493D21CA11C8800A54C36 /* encabezadosIOS.png */,
+				845C0F511C7633EF0050F852 /* chofer.png */,
+				84609EEB1C758E6F0056A282 /* dbutoff3.png */,
+				84609EEC1C758E6F0056A282 /* dbuton3.png */,
+				84609EED1C758E6F0056A282 /* dclock.png */,
+				84609EEE1C758E6F0056A282 /* ddistancia.png */,
+				84609EEF1C758E6F0056A282 /* destino.png */,
+				84609EF01C758E6F0056A282 /* destino2.png */,
+				84609EF11C758E6F0056A282 /* dmony.png */,
+				84609F051C758E6F0056A282 /* logpassfondo.png */,
+				84609F0A1C758E6F0056A282 /* origen.png */,
+				84609F0B1C758E6F0056A282 /* origen2.png */,
+				84609F0E1C758E6F0056A282 /* pulsa.png */,
+				84609F191C758E6F0056A282 /* separador.png */,
+				84609F1A1C758E6F0056A282 /* sinconexion.png */,
+				84609F1B1C758E6F0056A282 /* taxi_libre.png */,
+			);
+			name = icons;
+			path = Conaitor/icons;
+			sourceTree = "<group>";
+		};
+		84F5713A1BCE958200FC18D5 = {
+			isa = PBXGroup;
+			children = (
+				B5F9A1A01D5128AD00716E3D /* Telefonos+CoreDataProperties.swift */,
+				B5F9A1A11D5128AD00716E3D /* Telefonos.swift */,
+				84609EE21C758E6F0056A282 /* icons */,
+				8462408E1BEABBB800F272D5 /* Entitlements.plist */,
+				84F571451BCE958200FC18D5 /* Conaitor */,
+				84F5715A1BCE958200FC18D5 /* XtaxiTests */,
+				84F571651BCE958200FC18D5 /* XtaxiUITests */,
+				84F571441BCE958200FC18D5 /* Products */,
+				806E675426FD1B3FEF7755DC /* Frameworks */,
+				CE1476283A03C36D4A975E6E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		84F571441BCE958200FC18D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F571431BCE958200FC18D5 /* Conaitor.temp_caseinsensitive_rename.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F571451BCE958200FC18D5 /* Conaitor */ = {
+			isa = PBXGroup;
+			children = (
+				B549BFCF1E8181AD008E2693 /* UnTaxi.temp_caseinsensitive_rename.entitlements */,
+				B585BCC41E6B3AC10012038C /* Main.storyboard */,
+				B585BCBD1E6B0F2D0012038C /* Views */,
+				B58F1E601E638A2D008F07AC /* Class */,
+				B58F1E5C1E635C5F008F07AC /* Controllers */,
+				B5F5848E1DCF99BC002CA7B5 /* DS-Digital */,
+				B5B2ACA91D5D0BF700361D73 /* Launch Screen.storyboard */,
+				84C8E9251C82566C00F21E0B /* LocationManager.swift */,
+				84F571461BCE958200FC18D5 /* AppDelegate.swift */,
+				84F571481BCE958200FC18D5 /* ViewController.swift */,
+				84F571521BCE958200FC18D5 /* Info.plist */,
+				8461A4391C98743D00A8CFD0 /* CRuta.swift */,
+				84F571741BCE964100FC18D5 /* CCliente.swift */,
+				845AADE01C543B8500D4FFA4 /* CTaxi.swift */,
+				845AADE21C543CC400D4FFA4 /* CConductor.swift */,
+				84F0D9FC1C5BB52C00C7E962 /* CSolicitud.swift */,
+				84CD977F1C87C36E00E658C0 /* Contents.json */,
+				84F7E37E1CB38159008D4713 /* CEvaluacion.swift */,
+				84F28A271CC13CC400529F53 /* Images-5.xcassets */,
+				84FEE8911CC403630095C322 /* CTarifa.swift */,
+				84F22CA71CDC117300CDC432 /* CSMSVoz.swift */,
+				B5FB09C01D3EC6D10030E34A /* claxon.mp3 */,
+				B5FB09C11D3EC6D10030E34A /* beep.wav */,
+				B5F9A19D1D51273E00716E3D /* myCoreDataModel.xcdatamodeld */,
+				B5F9A1A41D5128DC00716E3D /* DataController.swift */,
+				B5EE74F91D5D649300DC8D77 /* CTelefono.swift */,
+				B5EDE1331D6517B20014130F /* CConexionInternet.swift */,
+				B5E5BD8E1E95684F0093409F /* CBackSMS.swift */,
+			);
+			path = Conaitor;
+			sourceTree = "<group>";
+		};
+		84F5715A1BCE958200FC18D5 /* XtaxiTests */ = {
+			isa = PBXGroup;
+			children = (
+				84F5715B1BCE958200FC18D5 /* XtaxiTests.swift */,
+				84F5715D1BCE958200FC18D5 /* Info.plist */,
+			);
+			path = XtaxiTests;
+			sourceTree = "<group>";
+		};
+		84F571651BCE958200FC18D5 /* XtaxiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84F571661BCE958200FC18D5 /* XtaxiUITests.swift */,
+				84F571681BCE958200FC18D5 /* Info.plist */,
+			);
+			path = XtaxiUITests;
+			sourceTree = "<group>";
+		};
+		B585BCBD1E6B0F2D0012038C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B585BCBE1E6B0F6D0012038C /* CallCenterViewCell.swift */,
+				B585BCBF1E6B0F6D0012038C /* CallCenterViewCell.xib */,
+				B58CEB501E71BBD600CFBC0F /* PerfilViewCell.swift */,
+				B58CEB511E71BBD600CFBC0F /* PerfilViewCell.xib */,
+				B58CEB561E71D54D00CFBC0F /* Perfil2ViewCell.swift */,
+				B58CEB571E71D54D00CFBC0F /* Perfil2ViewCell.xib */,
+				B58CEB5A1E71D62100CFBC0F /* Perfil3ViewCell.swift */,
+				B58CEB5B1E71D62100CFBC0F /* Perfil3ViewCell.xib */,
+				B528CE0B1E85E3E10045A8DA /* SolViewCell.swift */,
+				B528CE0C1E85E3E10045A8DA /* SolViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B58F1E5C1E635C5F008F07AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C60385832213C70500130EB9 /* Extensions */,
+				AFDB851820D1FE0E00481CFA /* CompletadaController.swift */,
+				B58F1E5D1E635D2B008F07AC /* LoginController.swift */,
+				B5054D761E66051500FEEDE4 /* SolPendController.swift */,
+				B50482A01E6883B100D5236C /* InicioController.swift */,
+				B585BCC21E6B31D20012038C /* CallCenterController.swift */,
+				B585BCC71E6B49C60012038C /* SolicitudesTableController.swift */,
+				B58CEB541E71BEAC00CFBC0F /* PerfilController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B58F1E601E638A2D008F07AC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		B5F5848E1DCF99BC002CA7B5 /* DS-Digital */ = {
+			isa = PBXGroup;
+			children = (
+				B5F5848F1DCF99D5002CA7B5 /* DIGITAL.TXT */,
+				B5F584901DCF99D5002CA7B5 /* DS-DIGIB.TTF */,
+				B5F584911DCF99D5002CA7B5 /* DS-DIGIT.TTF */,
+			);
+			name = "DS-Digital";
+			sourceTree = "<group>";
+		};
+		C60385832213C70500130EB9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C60385842213C7F400130EB9 /* InicioControllerExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		CE1476283A03C36D4A975E6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2DA71888DFD806A6A374B81 /* Pods-Paraiso.debug.xcconfig */,
+				07250EAECBF2EEDC976A21B4 /* Pods-Paraiso.release.xcconfig */,
+				0D64836F0EF542D8628280AB /* Pods-AndyTaxi.debug.xcconfig */,
+				7F4FC0ED4A7EE7FF32B0786B /* Pods-AndyTaxi.release.xcconfig */,
+				6C87638E7B9131C6B47A561E /* Pods-RuedaCar.debug.xcconfig */,
+				75A2852E9633500EBACC1899 /* Pods-RuedaCar.release.xcconfig */,
+				699FC2C938E0DE17EFC8E538 /* Pods-Conaitor.debug.xcconfig */,
+				01D2CA549B1912DBC2A9BA06 /* Pods-Conaitor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F571421BCE958200FC18D5 /* Conaitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F5716B1BCE958200FC18D5 /* Build configuration list for PBXNativeTarget "Conaitor" */;
+			buildPhases = (
+				C5C30425544E29BFD217055A /* [CP] Check Pods Manifest.lock */,
+				84F5713F1BCE958200FC18D5 /* Sources */,
+				84F571401BCE958200FC18D5 /* Frameworks */,
+				84F571411BCE958200FC18D5 /* Resources */,
+				FB70014521068CA649096A7D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Conaitor;
+			productName = Xtaxi;
+			productReference = 84F571431BCE958200FC18D5 /* Conaitor.temp_caseinsensitive_rename.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F5713B1BCE958200FC18D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Done Santana";
+				TargetAttributes = {
+					84F571421BCE958200FC18D5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 48G34LX7UB;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 84F5713E1BCE958200FC18D5 /* Build configuration list for PBXProject "Conaitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F5713A1BCE958200FC18D5;
+			productRefGroup = 84F571441BCE958200FC18D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F571421BCE958200FC18D5 /* Conaitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F571411BCE958200FC18D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F304241CC7F875009EAEF8 /* logpassfondo@3x.png in Resources */,
+				B5EE14BC1D527A7C0050ADAD /* origen2@2x.png in Resources */,
+				B5F753DA1D5CDED200FFDFD0 /* llamar.png in Resources */,
+				B5F2A86F1D73EB030050F564 /* xoalogo.png in Resources */,
+				B5B2ACAA1D5D0BF700361D73 /* Launch Screen.storyboard in Resources */,
+				84F2840B1CD697430074E07A /* solicitudesp.png in Resources */,
+				B5EE14C81D5286010050ADAD /* origen@3x.png in Resources */,
+				B5F753DF1D5CF60500FFDFD0 /* smsvoz2.png in Resources */,
+				84609F601C758E6F0056A282 /* taxi_libre.png in Resources */,
+				84609F311C758E6F0056A282 /* dbuton3.png in Resources */,
+				B5F0FEB21DD6767200500197 /* stop.png in Resources */,
+				B5F753E01D5CF60500FFDFD0 /* smsvoz3.png in Resources */,
+				84609F321C758E6F0056A282 /* dclock.png in Resources */,
+				84794F9E1CCA7DCC00C4DD33 /* encabezadosIOS@2x.png in Resources */,
+				84EF6E701CB4245F00BC8A04 /* starimage.png in Resources */,
+				B5D7FA7C1E84244D00333B59 /* detallesT@3x.png in Resources */,
+				84F0EEC91CA5D102007E969F /* ExplicacionIma.png in Resources */,
+				84609F351C758E6F0056A282 /* destino2.png in Resources */,
+				B58C6C341D5D15FA0034277C /* mensajesnew.png in Resources */,
+				B5FB646C1D1C60C3006A2C70 /* Mapacopia.png in Resources */,
+				84609F341C758E6F0056A282 /* destino.png in Resources */,
+				B585BCC61E6B3AC10012038C /* Main.storyboard in Resources */,
+				84609F4F1C758E6F0056A282 /* origen.png in Resources */,
+				84F493D31CA11C8800A54C36 /* encabezadosIOS.png in Resources */,
+				84609F4A1C758E6F0056A282 /* logpassfondo.png in Resources */,
+				84609F331C758E6F0056A282 /* ddistancia.png in Resources */,
+				84609F361C758E6F0056A282 /* dmony.png in Resources */,
+				84F019471CD1AA6A002D1BDE /* Taximetro.png in Resources */,
+				84F28A321CC14F1700529F53 /* logpassfondo@2X.png in Resources */,
+				B5EFF1B51D5C46D8007C4C30 /* uctglogo.png in Resources */,
+				84609F531C758E6F0056A282 /* pulsa.png in Resources */,
+				8462408F1BEABBB800F272D5 /* Entitlements.plist in Resources */,
+				B528CE0E1E85E3E10045A8DA /* SolViewCell.xib in Resources */,
+				84F28A281CC13CC400529F53 /* Images-5.xcassets in Resources */,
+				84F019451CD18E56002D1BDE /* Mapa.png in Resources */,
+				B5EE74FC1D5D976F00DC8D77 /* callcenter.png in Resources */,
+				B5F753DC1D5CE6ED00FFDFD0 /* smsvoz.png in Resources */,
+				84609F301C758E6F0056A282 /* dbutoff3.png in Resources */,
+				B5F584921DCF99D5002CA7B5 /* DIGITAL.TXT in Resources */,
+				B5EE14C41D5282520050ADAD /* destino@3x.png in Resources */,
+				B585BCC11E6B0F6D0012038C /* CallCenterViewCell.xib in Resources */,
+				B5FB09C31D3EC6D10030E34A /* beep.wav in Resources */,
+				B5EE74F61D5D5F0500DC8D77 /* CLARO.png in Resources */,
+				84F493D71CA137AD00A54C36 /* solpendientes.png in Resources */,
+				84609F501C758E6F0056A282 /* origen2.png in Resources */,
+				B5EE74F81D5D5F0500DC8D77 /* MOVISTAR.png in Resources */,
+				84F019411CD183BE002D1BDE /* sos.png in Resources */,
+				C6B4AA68222F7E0F0098D10D /* CTN.png in Resources */,
+				B58CEB5D1E71D62100CFBC0F /* Perfil3ViewCell.xib in Resources */,
+				B5F584931DCF99D5002CA7B5 /* DS-DIGIB.TTF in Resources */,
+				B5EABB641D2C7BA300693DE6 /* salir2.png in Resources */,
+				845C0F521C7633EF0050F852 /* chofer.png in Resources */,
+				B58CEB591E71D54D00CFBC0F /* Perfil2ViewCell.xib in Resources */,
+				84609F5F1C758E6F0056A282 /* sinconexion.png in Resources */,
+				B5FB646F1D1C60C3006A2C70 /* Tarifariocopia.png in Resources */,
+				B5FB646E1D1C60C3006A2C70 /* solicitudespcopia.png in Resources */,
+				B5F584941DCF99D5002CA7B5 /* DS-DIGIT.TTF in Resources */,
+				B5FB64701D1C60C3006A2C70 /* Taximetrocopia.png in Resources */,
+				B5F753D61D5CCB3700FFDFD0 /* evaluar.png in Resources */,
+				B5EE74F71D5D5F0500DC8D77 /* CNT.png in Resources */,
+				B5F753D81D5CDD8300FFDFD0 /* mensajes.png in Resources */,
+				84F28A381CC1672100529F53 /* destino2@2x.png in Resources */,
+				B5FB09C21D3EC6D10030E34A /* claxon.mp3 in Resources */,
+				B511EEAC1D76C0D5000E8E4F /* selectmenu.png in Resources */,
+				84F019491CD1B780002D1BDE /* Tarifario.png in Resources */,
+				B5F1D4AC1DA4B5C0006BF1AE /* compartir.png in Resources */,
+				84CD97801C87C36E00E658C0 /* Contents.json in Resources */,
+				84794F9F1CCA7DCC00C4DD33 /* encabezadosIOS@3x.png in Resources */,
+				B5EE14C01D527B040050ADAD /* destino@2x.png in Resources */,
+				B58CEB531E71BBD600CFBC0F /* PerfilViewCell.xib in Resources */,
+				84609F5E1C758E6F0056A282 /* separador.png in Resources */,
+				B5F0FEB41DD6767200500197 /* play.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C5C30425544E29BFD217055A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Conaitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB70014521068CA649096A7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Conaitor/Pods-Conaitor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Canvas/Canvas.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Canvas.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Conaitor/Pods-Conaitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F5713F1BCE958200FC18D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F571491BCE958200FC18D5 /* ViewController.swift in Sources */,
+				B58CEB521E71BBD600CFBC0F /* PerfilViewCell.swift in Sources */,
+				B585BCC01E6B0F6D0012038C /* CallCenterViewCell.swift in Sources */,
+				B50482A11E6883B100D5236C /* InicioController.swift in Sources */,
+				845AADE31C543CC400D4FFA4 /* CConductor.swift in Sources */,
+				84F0D9FD1C5BB52C00C7E962 /* CSolicitud.swift in Sources */,
+				B58CEB581E71D54D00CFBC0F /* Perfil2ViewCell.swift in Sources */,
+				B5F9A1A51D5128DC00716E3D /* DataController.swift in Sources */,
+				8461A43A1C98743D00A8CFD0 /* CRuta.swift in Sources */,
+				B5F9A1A21D5128AD00716E3D /* Telefonos+CoreDataProperties.swift in Sources */,
+				B585BCC91E6B49C60012038C /* SolicitudesTableController.swift in Sources */,
+				B5F9A1A31D5128AD00716E3D /* Telefonos.swift in Sources */,
+				84F7E37F1CB38159008D4713 /* CEvaluacion.swift in Sources */,
+				B5054D771E66051500FEEDE4 /* SolPendController.swift in Sources */,
+				84F571751BCE964100FC18D5 /* CCliente.swift in Sources */,
+				84F571471BCE958200FC18D5 /* AppDelegate.swift in Sources */,
+				B58CEB5C1E71D62100CFBC0F /* Perfil3ViewCell.swift in Sources */,
+				B5F9A19F1D51273E00716E3D /* myCoreDataModel.xcdatamodeld in Sources */,
+				AFDB851920D1FE0E00481CFA /* CompletadaController.swift in Sources */,
+				B58F1E5E1E635D2B008F07AC /* LoginController.swift in Sources */,
+				B5E5BD8F1E95684F0093409F /* CBackSMS.swift in Sources */,
+				C60385852213C7F400130EB9 /* InicioControllerExtension.swift in Sources */,
+				B585BCC31E6B31D20012038C /* CallCenterController.swift in Sources */,
+				B58CEB551E71BEAC00CFBC0F /* PerfilController.swift in Sources */,
+				B5EDE1341D6517B20014130F /* CConexionInternet.swift in Sources */,
+				B528CE0D1E85E3E10045A8DA /* SolViewCell.swift in Sources */,
+				B5EE74FA1D5D649300DC8D77 /* CTelefono.swift in Sources */,
+				845AADE11C543B8700D4FFA4 /* CTaxi.swift in Sources */,
+				84F22CA81CDC117300CDC432 /* CSMSVoz.swift in Sources */,
+				84C8E9261C82566C00F21E0B /* LocationManager.swift in Sources */,
+				84FEE8921CC403630095C322 /* CTarifa.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B585BCC41E6B3AC10012038C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B585BCC51E6B3AC10012038C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F571691BCE958200FC18D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		84F5716A1BCE958200FC18D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84F5716C1BCE958200FC18D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699FC2C938E0DE17EFC8E538 /* Pods-Conaitor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 48G34LX7UB;
+				ENABLE_BITCODE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/TSVoiceConverter",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Canvas",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Socket.IO-Client-Swift",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Socket.IO-Client-Swift",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Canvas",
+				);
+				IBSC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Conaitor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donelkys.Conaitor;
+				PRODUCT_NAME = Conaitor.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84F5716D1BCE958200FC18D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D2CA549B1912DBC2A9BA06 /* Pods-Conaitor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 48G34LX7UB;
+				ENABLE_BITCODE = YES;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/TSVoiceConverter",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Canvas",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Socket.IO-Client-Swift",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Socket.IO-Client-Swift",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Canvas",
+				);
+				IBSC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Conaitor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donelkys.Conaitor;
+				PRODUCT_NAME = Conaitor.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F5713E1BCE958200FC18D5 /* Build configuration list for PBXProject "Conaitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F571691BCE958200FC18D5 /* Debug */,
+				84F5716A1BCE958200FC18D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F5716B1BCE958200FC18D5 /* Build configuration list for PBXNativeTarget "Conaitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F5716C1BCE958200FC18D5 /* Debug */,
+				84F5716D1BCE958200FC18D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5F9A19D1D51273E00716E3D /* myCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5F9A19E1D51273E00716E3D /* myCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = B5F9A19E1D51273E00716E3D /* myCoreDataModel.xcdatamodel */;
+			path = myCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84F5713B1BCE958200FC18D5 /* Project object */;
+}

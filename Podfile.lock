@@ -1,0 +1,69 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Canvas (0.1.2)
+  - MaterialComponents/AnimationTiming (73.1.1)
+  - MaterialComponents/Palettes (73.1.1)
+  - MaterialComponents/private/Application (73.1.1)
+  - MaterialComponents/private/Math (73.1.1)
+  - MaterialComponents/TextFields (73.1.1):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (73.1.1):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - Socket.IO-Client-Swift (13.4.0):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.6)
+  - SwiftyJSON (4.2.0)
+  - TextFieldEffects (1.5.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Canvas
+  - MaterialComponents/TextFields
+  - Socket.IO-Client-Swift
+  - SwiftyJSON
+  - TextFieldEffects
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Canvas
+    - MaterialComponents
+    - MDFInternationalization
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftyJSON
+    - TextFieldEffects
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
+  MaterialComponents: b9b5743f650af50c5138e517a0930a3ade0cd09f
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  Socket.IO-Client-Swift: 2b2720f14c92ff1237ced09bc2f2da2022624fee
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  TextFieldEffects: 7d372f58aeaf9acd9626bbf962680aef926b085d
+
+PODFILE CHECKSUM: 92ff5ef1841fa3825ab6586e30f8884a11993021
+
+COCOAPODS: 1.6.0.beta.2
