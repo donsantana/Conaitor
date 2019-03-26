@@ -11,10 +11,7 @@ import UIKit
 import CoreLocation
 import MapKit
 import SocketIO
-import Canvas
-import AddressBook
 import AVFoundation
-import CoreData
 import MaterialComponents.MaterialTextFields
 
 class InicioController: UIViewController, URLSessionDelegate, URLSessionTaskDelegate, URLSessionDataDelegate, UIApplicationDelegate, AVAudioPlayerDelegate {

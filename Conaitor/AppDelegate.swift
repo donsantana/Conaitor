@@ -8,9 +8,7 @@
 //
 
 import UIKit
-import CoreLocation
 import SocketIO
-import AVFoundation
 
 struct myvariables {
     static var socket: SocketIOClient!
