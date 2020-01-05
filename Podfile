@@ -2,7 +2,7 @@
 platform :ios, '10.0'
 use_frameworks!
 
-target "MovilClub" do
+target "Conaitor" do
     pod 'Socket.IO-Client-Swift'
     pod 'Canvas'
     pod 'AFNetworking'

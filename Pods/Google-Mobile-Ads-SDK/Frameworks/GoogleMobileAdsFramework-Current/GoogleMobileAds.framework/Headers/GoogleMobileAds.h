@@ -19,6 +19,7 @@ FOUNDATION_EXPORT const unsigned char GoogleMobileAdsVersionString[];
 #import <GoogleMobileAds/GADAdMetadataKeys.h>
 #import <GoogleMobileAds/GADAdNetworkExtras.h>
 #import <GoogleMobileAds/GADAdSize.h>
+#import <GoogleMobileAds/GADAdValue.h>
 #import <GoogleMobileAds/GADAppOpenAd.h>
 #import <GoogleMobileAds/GADAudioVideoManager.h>
 #import <GoogleMobileAds/GADAudioVideoManagerDelegate.h>
@@ -30,6 +31,8 @@ FOUNDATION_EXPORT const unsigned char GoogleMobileAdsVersionString[];
 #import <GoogleMobileAds/GADInAppPurchase.h>
 #import <GoogleMobileAds/GADInAppPurchaseDelegate.h>
 #import <GoogleMobileAds/GADInitializationStatus.h>
+#import <GoogleMobileAds/GADInstreamAd.h>
+#import <GoogleMobileAds/GADInstreamAdView.h>
 #import <GoogleMobileAds/GADInterstitial.h>
 #import <GoogleMobileAds/GADInterstitialDelegate.h>
 #import <GoogleMobileAds/GADMediaAspectRatio.h>
@@ -40,6 +43,7 @@ FOUNDATION_EXPORT const unsigned char GoogleMobileAdsVersionString[];
 #import <GoogleMobileAds/GADRequest.h>
 #import <GoogleMobileAds/GADRequestConfiguration.h>
 #import <GoogleMobileAds/GADRequestError.h>
+#import <GoogleMobileAds/GADResponseInfo.h>
 #import <GoogleMobileAds/GADVideoController.h>
 #import <GoogleMobileAds/GADVideoControllerDelegate.h>
 #import <GoogleMobileAds/GADVideoOptions.h>
