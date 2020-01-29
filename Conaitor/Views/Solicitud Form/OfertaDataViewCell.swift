@@ -15,6 +15,7 @@ class OfertaDataViewCell: UITableViewCell {
   @IBOutlet weak var detallesText: UITextField!
   
   func initContent(){
-    
+    self.ofertaText.setBottomBorder(borderColor: .red)
+    self.detallesText.setBottomBorder(borderColor: .gray)
   }
 }

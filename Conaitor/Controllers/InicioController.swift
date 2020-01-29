@@ -314,11 +314,13 @@ class InicioController: BaseController, CLLocationManagerDelegate, URLSessionDel
     self.formularioDataCellList.removeAll()
     self.formularioDataCellList.append(self.origenCell)
     if self.tipoSolicitudSwitch.selectedSegmentIndex == 0{
+      self.ofertaDataCell.initContent()
       self.formularioDataCellList.append(self.ofertaDataCell)
-    }
-    if GlobalVariables.cliente.empresa != nil{
-      self.formularioDataCellList.append(self.voucherCell)
-      self.tipoSolicitudSwitch.isHidden = false
+    }else{
+      if GlobalVariables.cliente.empresa != "null"{
+        self.formularioDataCellList.append(self.voucherCell)
+        self.tipoSolicitudSwitch.isHidden = false
+      }
     }
     self.formularioDataCellList.append(self.contactoCell)
     self.solicitudFormTable.reloadData()
@@ -693,7 +695,7 @@ class InicioController: BaseController, CLLocationManagerDelegate, URLSessionDel
   func addEnvirSolictudBtn(){
     let enviarBtnView = UIView(frame: CGRect(x: 0, y: 0, width: self.SolicitudView.frame.width, height: 40))
     let button:UIButton = UIButton.init(frame: CGRect(x: 10, y: 15, width: enviarBtnView.frame.width - 20, height: 40))
-    button.backgroundColor = .lightGray
+    button.backgroundColor = .gray
     button.layer.cornerRadius = 5
     button.setTitleColor(.white, for: .normal)
     button.setTitle("ENVIAR SOLICITUD", for: .normal)
@@ -805,13 +807,13 @@ class InicioController: BaseController, CLLocationManagerDelegate, URLSessionDel
       
       let fechaReserva = self.origenCell.fechaReserva.text
       
-      let valorOferta = self.ofertaDataCell.ofertaText.isHidden ? "0" : self.ofertaDataCell.ofertaText.text!
+      let valorOferta = self.tipoSolicitudSwitch.selectedSegmentIndex != 0 ? "0" : self.ofertaDataCell.ofertaText.text!
       
       mapaVista.removeAnnotations(mapaVista.annotations)
       
       let nuevaSolicitud = Solicitud()
       nuevaSolicitud.DatosCliente(cliente: clienteSolicitud!)
-      nuevaSolicitud.DatosSolicitud(idSolicitud: "test", fechaHora: "Date", dirOrigen: origen, referenciaOrigen: referencia, dirDestino: destino, latOrigen: origenCoord.latitude, lngOrigen: origenCoord.longitude, latDestino: destinoCoord.latitude, lngDestino: destinoCoord.longitude, valorOferta: self.ofertaDataCell.ofertaText.text!, detallesOferta: detalleOferta, fechaReserva: fechaReserva!)
+      nuevaSolicitud.DatosSolicitud(idSolicitud: "test", fechaHora: "Date", dirOrigen: origen, referenciaOrigen: referencia, dirDestino: destino, latOrigen: origenCoord.latitude, lngOrigen: origenCoord.longitude, latDestino: destinoCoord.latitude, lngDestino: destinoCoord.longitude, valorOferta: valorOferta, detallesOferta: detalleOferta, fechaReserva: fechaReserva!)
       
       self.crearTramaSolicitud(nuevaSolicitud,voucher: voucher)
       DibujarIconos([self.origenAnotacion])
@@ -827,10 +829,15 @@ class InicioController: BaseController, CLLocationManagerDelegate, URLSessionDel
   }
   
   @objc func enviarSolicitud(){
-    print(self.tipoSolicitudSwitch.selectedSegmentIndex)
     if self.tipoSolicitudSwitch.selectedSegmentIndex == 0 {
       if !(self.ofertaDataCell.ofertaText.text?.isEmpty)! && self.ofertaDataCell.ofertaText.text != "0"{
         self.crearSolicitudOferta()
+      }else{
+        let alertaDos = UIAlertController (title: "Error en el formulario", message: "Por favor debe ofertar un valor $ por el servicio.", preferredStyle: UIAlertController.Style.alert)
+        alertaDos.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: {alerAction in
+          //self.origenCell.destinoText.becomeFirstResponder()
+        }))
+        self.present(alertaDos, animated: true, completion: nil)
       }
     }else{
       self.crearSolicitudOferta()

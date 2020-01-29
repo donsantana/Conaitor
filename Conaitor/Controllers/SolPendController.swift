@@ -55,6 +55,7 @@ class SolPendController: BaseController, MKMapViewDelegate, UITextViewDelegate,U
   @IBOutlet weak var AlertaEsperaView: UIView!
   @IBOutlet weak var MensajeEspera: UITextView!
   
+  @IBOutlet weak var valorOfertaIcon: UIImageView!
   @IBOutlet weak var adsBannerView: GADBannerView!
 
   override func viewDidLoad() {
@@ -70,14 +71,16 @@ class SolPendController: BaseController, MKMapViewDelegate, UITextViewDelegate,U
     
     self.LlamarCondBtn.addShadow()
     
-    self.valorOferta.isHidden = solicitudPendiente.valorOferta == ""
+    //self.valorOferta.isHidden = solicitudPendiente.valorOferta == ""
+    self.valorOferta.isHidden = solicitudPendiente.valorOferta == "0"
+    self.valorOfertaIcon.isHidden = solicitudPendiente.valorOferta == "0"
     
     let longGesture = UILongPressGestureRecognizer(target: self, action: #selector(SolPendController.longTap(_:)))
     longGesture.minimumPressDuration = 0.2
     self.SMSVozBtn.addGestureRecognizer(longGesture)
     
     //ADS BANNER VIEW
-    self.adsBannerView.adUnitID = ""//"ca-app-pub-1778988557303127/8408614115" //"ca-app-pub-3940256099942544/2934735716"//"ca-app-pub-1778988557303127/8408614115"
+    self.adsBannerView.adUnitID = "ca-app-pub-1778988557303127/5963556124"
     self.adsBannerView.rootViewController = self
     self.adsBannerView.load(GADRequest())
     self.adsBannerView.delegate = self

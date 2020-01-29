@@ -10,63 +10,37 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="OfertaDataViewCell" customModule="Conaitor" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="104"/>
+            <rect key="frame" x="0.0" y="0.0" width="394" height="70"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="ofertaIcon" translatesAutoresizingMaskIntoConstraints="NO" id="5aj-xt-c51">
-                    <rect key="frame" x="25" y="20" width="30" height="30"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ofertaIcon" translatesAutoresizingMaskIntoConstraints="NO" id="5aj-xt-c51">
+                    <rect key="frame" x="25" y="-2" width="30" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="30" id="lx0-Q2-Le9"/>
                         <constraint firstAttribute="height" constant="30" id="pGM-jd-mkk"/>
                     </constraints>
                 </imageView>
-                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" placeholder="Valor $" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ntY-27-7Pi" customClass="HoshiTextField" customModule="TextFieldEffects">
-                    <rect key="frame" x="65" y="10" width="60" height="40"/>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" placeholder="Valor $" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ntY-27-7Pi">
+                    <rect key="frame" x="65" y="-2" width="60" height="30"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="40" id="Elr-ag-B44"/>
+                        <constraint firstAttribute="height" constant="30" id="Elr-ag-B44"/>
                         <constraint firstAttribute="width" constant="60" id="yoY-Rd-V40"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
-                    <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
-                            <real key="value" value="1"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
-                            <color key="value" red="0.81176470590000005" green="0.0078431372550000003" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
-                            <color key="value" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
-                </textField>
-                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Detalles Adicionales" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SN2-Uf-OMC" customClass="HoshiTextField" customModule="TextFieldEffects">
-                    <rect key="frame" x="65" y="58" width="319" height="40"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="40" id="IUx-l3-K2C"/>
-                    </constraints>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                    <textInputTraits key="textInputTraits"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
-                            <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
-                            <color key="value" cocoaTouchSystemColor="darkTextColor"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
-                            <real key="value" value="1"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
+                    <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                 </textField>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="detalleIcon" id="vh0-JM-OQm">
-                    <rect key="frame" x="25" y="68" width="30" height="30"/>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Detalles de oferta" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SN2-Uf-OMC">
+                    <rect key="frame" x="65" y="33" width="279" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="IUx-l3-K2C"/>
+                    </constraints>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detalleIcon" id="vh0-JM-OQm">
+                    <rect key="frame" x="25" y="33" width="30" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
@@ -74,13 +48,13 @@
             <constraints>
                 <constraint firstItem="SN2-Uf-OMC" firstAttribute="bottom" secondItem="vh0-JM-OQm" secondAttribute="bottom" id="8BI-Sv-aml"/>
                 <constraint firstItem="ntY-27-7Pi" firstAttribute="bottom" secondItem="5aj-xt-c51" secondAttribute="bottom" id="NJn-Mm-X7m"/>
-                <constraint firstItem="vh0-JM-OQm" firstAttribute="height" secondItem="5aj-xt-c51" secondAttribute="height" id="Nkg-ee-ITF"/>
-                <constraint firstAttribute="trailing" secondItem="SN2-Uf-OMC" secondAttribute="trailing" constant="30" id="PDl-Zn-AiA"/>
+                <constraint firstAttribute="trailing" secondItem="SN2-Uf-OMC" secondAttribute="trailing" constant="50" id="PDl-Zn-AiA"/>
                 <constraint firstItem="ntY-27-7Pi" firstAttribute="leading" secondItem="5aj-xt-c51" secondAttribute="trailing" constant="10" id="RRg-YP-bT4"/>
+                <constraint firstItem="5aj-xt-c51" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="T5j-Bo-1Fj"/>
                 <constraint firstItem="vh0-JM-OQm" firstAttribute="leading" secondItem="5aj-xt-c51" secondAttribute="leading" id="TEv-gd-NtU"/>
-                <constraint firstItem="vh0-JM-OQm" firstAttribute="top" secondItem="5aj-xt-c51" secondAttribute="bottom" constant="10" id="aXZ-aI-42Q"/>
+                <constraint firstItem="vh0-JM-OQm" firstAttribute="top" secondItem="5aj-xt-c51" secondAttribute="bottom" constant="5" id="aXZ-aI-42Q"/>
                 <constraint firstItem="SN2-Uf-OMC" firstAttribute="leading" secondItem="vh0-JM-OQm" secondAttribute="trailing" constant="10" id="c3R-yp-3Fd"/>
-                <constraint firstItem="5aj-xt-c51" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="dKv-JA-3Zd"/>
+                <constraint firstItem="ntY-27-7Pi" firstAttribute="top" secondItem="5aj-xt-c51" secondAttribute="top" id="hGS-bQ-0Yv"/>
                 <constraint firstItem="vh0-JM-OQm" firstAttribute="width" secondItem="5aj-xt-c51" secondAttribute="width" id="lYi-V1-KyM"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -88,7 +62,7 @@
                 <outlet property="detallesText" destination="SN2-Uf-OMC" id="vA6-iF-TfE"/>
                 <outlet property="ofertaText" destination="ntY-27-7Pi" id="7v2-bW-n0B"/>
             </connections>
-            <point key="canvasLocation" x="137.68115942028987" y="-103.125"/>
+            <point key="canvasLocation" x="123.18840579710145" y="-113.83928571428571"/>
         </view>
     </objects>
     <resources>

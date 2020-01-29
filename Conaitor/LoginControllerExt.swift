@@ -28,11 +28,11 @@ extension LoginController: UITextFieldDelegate{
           if textField.isEqual(confirmarClavText){
             textField.isSecureTextEntry = true
           }
-          textField.tintColor = Customization.textColor
+          textField.tintColor = .black
           animateViewMoving(true, moveValue: 200, view: self.view)
         }else{
           if textField.isEqual(self.telefonoText){
-            textField.textColor = Customization.textColor
+            textField.textColor = .black
             //textField.text = ""
             animateViewMoving(true, moveValue: 70, view: self.view)
           }

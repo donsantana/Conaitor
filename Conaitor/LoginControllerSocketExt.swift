@@ -40,7 +40,7 @@ extension LoginController{
       print(temporal)
       switch temporal[1]{
       case "loginok":
-        GlobalVariables.cliente = CCliente(idUsuario: temporal[2],idcliente: temporal[4], user: self.login[1], nombre: temporal[5],email: temporal[3],empresa: temporal[temporal.count - 2])
+        GlobalVariables.cliente = CCliente(idUsuario: temporal[2],idcliente: temporal[4], user: self.login[1], nombre: temporal[5],email: temporal[3],empresa: temporal[7])
         if GlobalVariables.socket.status.active{
           let ColaHilos = OperationQueue()
           let Hilos : BlockOperation = BlockOperation (block: {

@@ -27,7 +27,7 @@ class CompletadaController: BaseController, UITextViewDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    self.completadaBack.backgroundColor = Customization.primaryColor
+    //self.completadaBack.backgroundColor = Customization.primaryColor
     self.comentarioText.delegate = self
     self.evaluacion = CEvaluacion(botones: [PrimeraStart, SegundaStar,TerceraStar,CuartaStar,QuintaStar])
     

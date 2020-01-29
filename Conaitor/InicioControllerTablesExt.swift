@@ -122,8 +122,6 @@ extension InicioController: UITableViewDelegate, UITableViewDataSource{
       switch indexPath.row {
       case 0:
         return 160
-      case 1:
-        return 104
       default:
         return 70
       }

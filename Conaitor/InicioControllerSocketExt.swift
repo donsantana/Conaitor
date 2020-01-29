@@ -32,6 +32,7 @@ extension InicioController{
     GlobalVariables.socket.on("Posicion"){data, ack in
       self.EnviarTimer(estado: 0, datos: "Terminado")
       let temporal = String(describing: data).components(separatedBy: ",")
+      print(temporal)
       if temporal[1] == "0" {
         let alertaDos = UIAlertController(title: "Solicitud de Taxi", message: "No hay taxis disponibles en este momento, espere unos minutos y vuelva a intentarlo.", preferredStyle: UIAlertController.Style.alert )
         alertaDos.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: {alerAction in

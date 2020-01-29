@@ -180,7 +180,7 @@ class Solicitud {
   }
   
   func crearTrama(voucher: String) -> String{
-    if self.valorOferta != ""{
+    if self.valorOferta != "0"{
     return "#SO,\(self.idCliente),\(self.nombreApellidos),\(self.user),\(self.dirOrigen),\(self.referenciaorigen),\(self.dirDestino),\(self.origenCoord.latitude),\(self.origenCoord.longitude),\(self.destinoCoord.latitude),\(self.destinoCoord.longitude),\(self.distancia),\(self.valorOferta),\(voucher),\(self.detallesOferta),\(self.getFechaISO()),1,# \n"
     }else{
       return "#Solicitud,\(self.idCliente),\(self.nombreApellidos),\(self.user),\(self.dirOrigen),\(self.referenciaorigen),\(self.dirDestino),\(String(self.origenCoord.latitude)),\(String(self.origenCoord.longitude)),0.0,0.0,\(String(self.distancia)),\(self.costo),\(voucher),# \n"
@@ -188,7 +188,7 @@ class Solicitud {
   }
   
   func crearTramaCancelar(motivo: String) -> String {
-    if self.valorOferta != ""{
+    if self.valorOferta != "0"{
       return "#CSO,\(self.id),\(self.idTaxi != "" ? self.idTaxi : "null"),\(motivo),# \n"
     }else{
       return "#Cancelarsolicitud,\(self.id),\(self.idTaxi != "" ? self.idTaxi : "null"),\(motivo),# \n"
